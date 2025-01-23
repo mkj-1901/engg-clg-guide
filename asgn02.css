@@ -6,7 +6,9 @@ body{
     margin: 0;
     height: 100vh; 
 }
-
+#name_head{
+    text-align: center;
+}
 #nav{
     position: relative;
     border: 2px;
