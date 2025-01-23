@@ -21,7 +21,7 @@ body{
     font-size: 80px;
 }
 .icon{
-    height:80px;
+    height:100px;
     float: left;
     border-radius: 12px;
     margin: 3px;
@@ -51,7 +51,7 @@ body{
     display: block;
     margin: 10px;
     padding: 15px 30px;
-    background-color: #333;
+    background-color: #333333cb;
     color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 5px;
@@ -71,4 +71,7 @@ body{
     color: rgb(11, 2, 2);
     text-align: center;
     padding: 5px 0;
+}
+#Nit{
+    text-align: center;
 }
