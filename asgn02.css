@@ -61,12 +61,23 @@ body{
 .option:hover {
     background-color: #555;
 }
-.footer {
+#foot{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #7b777753;
+    background-color: #979292ee;
+    font-size: 16px;
+    color: rgb(11, 2, 2);
+    text-align: center;
+    padding: 5px 0;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #979292ee;
     font-size: 16px;
     color: rgb(11, 2, 2);
     text-align: center;
@@ -74,4 +85,40 @@ body{
 }
 #Nit{
     text-align: center;
+}
+
+
+
+
+#NIT_DATA{
+    text-align: center;
+}
+#img1{
+    text-align: left;
+    width: 304px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 10px;
+
+
+}
+#img{
+    text-align: left;
+    width: 304px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+table,td,th{
+    width: 300px;
+    border:1px solid;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+    font-size: larger;
+}
+tr:hover{
+    background-color: #d6eeee;
 }
