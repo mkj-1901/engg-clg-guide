@@ -12,22 +12,54 @@ body{
 #nav{
     position: relative;
     border: 2px;
-    height:50px;
+    height:100px;
     padding: 0px;
     margin: 0px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: xxx-large;
+    font-size: 80px;
 }
 .icon{
-    height:60px;
+    height:80px;
     float: left;
     border-radius: 12px;
     margin: 3px;
 }
 .button:hover {
     background-color: lightblue;
+}
+
+.map{
+    height: 500px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px; /* Spacing between columns */
+    align-items: center;
+}
+
+.option {
+    display: block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #555;
 }
 .footer {
     position: fixed;
