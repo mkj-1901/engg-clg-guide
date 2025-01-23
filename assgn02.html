@@ -11,14 +11,15 @@
     <p id="nav"> <img class="icon" src="JoSAA_Favicon.jpg" alt="JoSSA";>JoSAA Guide 2025</p>
     <hr>
     <p>
-        <form action="#" method="post">
-            <label for="options">Type of Institute: </label>
-            <select id="options" name="options">
+        <form method="get">
+            <label for="page-selector">Type of Institute: </label>
+            <select id="page-selector" name="page" onchange="this.form.submit()">
                 <option value="" selected disabled>Choose</option>
                 <option value="page2.html">IIT</option>
                 <option value="option2">NIT</option>
                 <option value="option3">IIIT</option>
             </select>
+            
             <br><br>
         </form>
     </p>
