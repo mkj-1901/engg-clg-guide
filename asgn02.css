@@ -1,5 +1,6 @@
 body{
-    background-image: url('Background.jpg');
+    background: #131313;
+    color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
