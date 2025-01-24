@@ -1,17 +1,19 @@
 body{
     background-size: cover;
     margin: 0px;
+    background-color: #000000;
     background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: azure;
     background-position: center;
 }
 
 #nav{
-    position: fixed;
-    background-color: #464646;
+    background: linear-gradient(to bottom, #464646, transparent);
     width: 100%;
     padding: 8px;
-    margin-top: -40px;
+    height: 80px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-weight: bolder;
     font-size: 36px;
@@ -55,12 +57,10 @@ body{
     background-color: #464646;
 }
 
-#para-text {
+.para-text {
     font-size:20px;
     margin: 0px 40px;
-    padding-top: 60px;
     margin-bottom: 40px;
-    margin-top: 40px;
     text-align: justify;
 }
 
@@ -113,6 +113,7 @@ body{
     font-size: 16px;
     color: rgb(11, 2, 2);
     text-align: center;
+    
 }
 
 #love {
@@ -121,13 +122,6 @@ body{
 }
 
 #Nit{
-    text-align: center;
-}
-
-
-
-
-#NIT_DATA{
     text-align: center;
 }
 #img1{
@@ -148,7 +142,7 @@ body{
     padding-top: 10px;
 }
 table,td,th{
-    width: 300px;
+    width: 700px;
     border:1px solid;
     border-collapse: collapse;
 }
@@ -157,5 +151,5 @@ th,td{
     font-size: larger;
 }
 tr:hover{
-    background-color: #d6eeee;
+    background-color: #d6eeee38;
 }
