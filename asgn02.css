@@ -1,4 +1,4 @@
-body{
+body {
     background-size: cover;
     margin: 0px;
     background-color: #000000;
@@ -8,9 +8,9 @@ body{
     background-position: center;
 }
 
-#nav{
+#nav {
     background: linear-gradient(to bottom, #464646, transparent);
-    width: 100%;
+    width: device-width;
     padding: 8px;
     height: 80px;
     margin-top: 0px;
@@ -18,8 +18,9 @@ body{
     font-weight: bolder;
     font-size: 36px;
 }
-.icon{
-    height:36px;
+
+.icon {
+    height: 36px;
     width: 36px;
     padding-right: 12px;
     float: left;
@@ -27,13 +28,15 @@ body{
     border-radius: 12px;
     margin: 8px;
 }
+
 .button:hover {
     background-color: lightblue;
 }
 
-.map{
+.map {
     height: 500px;
 }
+
 .container {
     display: flex;
     margin-bottom: 60px;
@@ -58,7 +61,7 @@ body{
 }
 
 .para-text {
-    font-size:20px;
+    font-size: 20px;
     margin: 0px 40px;
     margin-bottom: 40px;
     text-align: justify;
@@ -94,26 +97,31 @@ body{
     transition: background-color 0.3s;
 }
 
-#foot{
+#foot {
+    height: 60px;
+    background: linear-gradient(to top, #464646, transparent);
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: #464646;
+    width: device-width;
     font-size: 16px;
-    color: rgb(11, 2, 2);
-    text-align: center;
-    padding: 5px 0;
+    color: rgb(248, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
 .footer {
-    position: relative;
+    margin-bottom: -16px;
+    height: 60px;
+    background: linear-gradient(to top, #464646, transparent);
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: #464646;
+    width: device-width;
     font-size: 16px;
-    color: rgb(11, 2, 2);
-    text-align: center;
-    
+    color: rgb(248, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 #love {
@@ -121,10 +129,11 @@ body{
     color: white;
 }
 
-#Nit{
+#Nit {
     text-align: center;
 }
-#img1{
+
+#img1 {
     text-align: left;
     width: 304px;
     float: left;
@@ -133,7 +142,8 @@ body{
 
 
 }
-#img{
+
+#img {
     text-align: left;
     width: 304px;
     float: left;
@@ -141,15 +151,38 @@ body{
     padding-right: 10px;
     padding-top: 10px;
 }
-table,td,th{
+
+table,
+td,
+th {
     width: 700px;
-    border:1px solid;
+    border: 1px solid;
     border-collapse: collapse;
 }
-th,td{
+
+th,
+td {
     text-align: center;
     font-size: larger;
 }
-tr:hover{
+
+tr:hover {
     background-color: #d6eeee38;
+}
+
+a {
+    color: rgb(89, 225, 246);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(9, 239, 166);
+}
+
+a:visited {
+    color: rgb(180, 99, 180);
+}
+
+a:active {
+    color: green;
 }
