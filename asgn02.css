@@ -210,6 +210,7 @@ td {
 
 .right-talk-section {
     flex: 1;
+    padding: 20px 0px;
     margin-left: 100px;
     max-width: 500px;
 }
@@ -237,8 +238,15 @@ form textarea {
 }
 
 form .btn {
-    width: 100%;
+    width: 105%;
+    color: #f1f5bf;
+    padding: 10px 0px;
+    display: block;
+    box-sizing: border-box;
+    border-color: 2px solid #37193c;
+    background-color: #00000029;
     font-size: 1.2rem;
+    border-radius: 15px;
 }
 
 tr:hover {
